@@ -1,0 +1,414 @@
+.container {
+  width: 100%;
+  max-width: 70em;
+  margin: 0 auto; /* Center alignment */
+  padding: 0 1em;
+}
+section.top-bar{
+  background-color: #10592e;
+  text-align: center;
+  height: 2rem;
+}
+#h1-content{
+font-weight: bo;
+}
+.top-bar p{
+  color: white;
+}
+.header {
+  position: relative;
+  padding: 1rem;
+font-size: medium;
+}
+
+.header div.col-l{
+  padding-left: 5rem;
+}
+a.nav-link {
+  margin-left: 2rem;
+}
+.navbar-nav.mr-auto li#li1{
+  margin-left: 1rem;
+ margin-bottom: 0rem;
+ position: absolute;
+ right: 10%;
+ top:18%
+}
+div.col-md-3.header__top{
+  position: relative;
+}
+.header__logo img{
+  width: 60%;
+  height: 60%;
+ 
+position: relative;
+
+}
+/*Menu*/
+.menu {
+position: relative;
+left: 0px;
+
+}
+.menu__list {
+  display: flex;
+  align-items: center;
+}
+.menu__item {
+  margin: 0 2.5rem;
+}
+.menu__link {
+  color: var(--gray-dark);
+  font-size: 1.4rem;
+  font-weight: bold; 
+}
+
+
+#btn-header {
+ 
+ border-radius: 1.5rem;
+
+font-size: 1.5rem;
+}
+
+.header i{
+  color: #272626;
+}
+ul {
+  list-style: none;
+  }
+
+.content {
+  background-image: url('/images/Store-a-Tooth\(Final\)_02.jpg');
+  /* padding-top: 19rem; */
+  position: relative;
+   width: 100%;
+  height: 55rem ;
+  background-size: 100% 100%;
+
+}
+.content1 {
+  position: static;
+  
+}
+
+.content-title1 {
+  font-size: 10px;
+  color: var(--gray-dark);
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  margin-bottom: 3rem;
+  line-height: 1.2;
+  word-break:break-word;
+  position: relative;
+  left: 50px;
+  top: 200px;
+ 
+  
+}
+.content-desc1 {
+  font-size: 14px;
+  color: var(--gray-dark);
+  margin-bottom: 5rem;
+  color: #8b94a0;
+}
+.btn1 a{
+  width: 205px;
+  height: 50px;
+  border-radius: 50px;
+  padding-top: 12px;
+  font-size: 15px;
+  text-align: center;
+  position: relative;
+}
+i.fa.fa-arrow-circle-right{ 
+  position: absolute;
+  left: 16rem;
+  top: 5px;
+  z-index: 2;
+color: white;
+  font-size: 3.6rem;
+}
+.content2 h1 {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+
+.content2 img {
+  height: 65px;
+  width: 70px;
+ margin-left: auto; margin-right: auto;
+ margin-top: 20px;
+ margin-bottom: 30px;
+
+}
+.content2 {
+  text-align: center;
+  font-size: 15px;
+}
+.seen h4 {
+  clear: both;
+  width: 100%; 
+  text-align: center; 
+  border-bottom: 3px solid #ebebeb; 
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+  color: #272626;
+} 
+
+.seen h4 span { 
+   background:#fff; 
+   padding:0 10px;
+   left: 20px;
+}
+
+.s1 {
+  float: left;
+  
+}
+.seen img {
+  display: block; margin-left: auto; margin-right: auto;
+padding: 70px;
+position: relative;
+left: 80px;
+}
+
+section.lab {
+background-color: #e9f2e3;
+clear: both;
+
+}
+
+.content-lab{
+  padding: 40px;
+ 
+}
+.title-lab h2{
+  font-size: 30px;
+  
+}
+.des-lab {
+  font-size: 13px;
+  width: 350px;
+}
+.btn-lab button{
+  border-color: #31704b;
+  width: 100px;
+  background-color: aliceblue;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+}
+.process{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+h1.pro{
+  padding-top: 70px;
+  font-weight: bold;
+  font-size: 30px;
+}
+p.pro{
+  color: #cdcdcd;
+  font-size: 12px;
+}
+div.btn-pro{
+  padding-top: 20px;
+}
+button.btn-pro{
+  border-color: #31704b;
+  width: 100px;
+  background-color: aliceblue;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+  
+}
+.parent img{
+  width: 1500px;
+  height: 150px;
+  background-color: #3e3e3e;
+  background-image: none;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.parent{
+  background-image: url(/images/Store-a-Tooth\(Final\)_0a.png);
+  padding: 20px;
+}
+
+/* section.container{
+  text-align:center
+} */
+button.btn-par{
+  border-color: #31704b;
+  width: 100px;
+  background-color: aliceblue;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+  position: relative;
+  left: 45%;
+}
+div.btn-par{
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.parent .container h1{
+  font-size: 35px;
+  text-align: center;
+  padding-top: 30px;
+}
+.parent .container p {
+  color: #6e6e6e;
+  font-size: 1rem;
+  padding-bottom: 1em;
+  
+}
+.ques{
+  padding: 2rem;
+}
+h1.ques{
+  text-align: center;
+  padding-bottom: 1rem;
+}
+p.ques{
+  text-align: center;
+  padding: 0%;
+  margin: 0%;
+}
+a#ques-btn{
+
+  position: absolute;
+    right: 0px;
+}
+div.card.card-body {
+  border: 0rem;
+  padding-left: 0%;
+  width: 65rem;
+    font-size: 1rem;
+}
+.email div.row{
+  padding: 5rem;
+}
+.img-email img{
+  position: relative;
+  left: 20%;
+}
+#ip{
+
+  border-radius: 1rem;
+ height: 5rem;
+ border-width: 0.2rem;
+}
+/* .button-email {
+  padding
+} */
+
+.email i.fa.fa-arrow-circle-right {
+  position: absolute;
+  margin-right: 0px;
+  top: 0.1rem;
+ 
+color: green;
+  font-size: 5rem;
+} 
+.input-group mb-3 input.form-control{
+  border-radius: 1rem;
+}
+#ip3{
+  width: 33rem;
+    height: 3rem;
+    border-radius: 1rem;
+}
+#sub3{
+  
+    color: greenyellow;
+    border-radius: 1rem;
+    height: 2rem;
+    position: relative;
+}
+#sub3 i{
+  position: absolute;
+ font-size: xx-large;
+ right: 2rem;
+ top: -1rem;
+ z-index: 3;
+}
+#t3 {
+  position: relative;
+  width: 70%;
+  height:35px;
+  border-radius: 10px;
+   border-width: 2px;
+}
+#b3{
+  position: absolute;
+  border-radius: 10px;
+  border-width: 0em;
+  font-size: 20px;
+  background-color: #fff;
+  right: 30%;
+  padding: 0px;
+  z-index: 2;
+}
+#i3{
+  color: greenyellow;
+  font-size: xx-large;
+}
+.footer{
+  background-image: url(/images/Store-a-Tooth\(Final\).jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 30px;
+}
+.footer li a{
+  color: #272626;
+  padding-top: 5px;
+}
+.footer-logo img {
+  margin-left: 40%;
+  width: 15%;
+}
+p#foo{
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 464px) {
+  #h1-content{
+    font-size: 2rem;
+  }
+  .content-desc1{
+    font-size: 1rem;
+  }
+  .btn btn-danger{
+    width: 0rem;
+  }
+}
+@media only screen and (max-width: 464px) {
+  p{
+    font-size: 0.1rem;
+  }
+}
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+}
+ul.dropdown-menu.show, ul.dropdown-menu {
+  font-size: small;
+  width: 18rem;
+  padding-left: 1rem;
+  color: #272626;
+}
+ul.dropdown-menu.show a, ul.dropdown-menu a{
+color: #272626;
+}
