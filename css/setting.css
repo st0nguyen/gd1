@@ -1,7 +1,4 @@
-@font-face {
-    src:url(/fonts/MyriadProBoldSemiExtended.ttf) ;
-    font-family : MyriadPro;
-}
+
 :root {
     --primary-color: #ff817e;
     --gray-dark: #263a41;
@@ -9,7 +6,7 @@
     --white: white;
     --black: black;
     --bg-block: #fff9f8;
-    --primary-font: MyriadPro;
+  
     --wrapper: 222rem;
     --container: 250rem;
   }
@@ -23,7 +20,7 @@
    
   }
   body {
-    font-family: var(--primary-font);
+  
     
     color: var(--gray-dark);
     background-color: var(--white);
