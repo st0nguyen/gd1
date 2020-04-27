@@ -1,45 +1,52 @@
 @font-face {
   font-family : "MyriadPro";
 
-    src:url(/fonts/MyriadProBoldSemiExtended.ttf);
+    src:url(/fonts/MyriadProBoldSemiExtended.ttf) format('truetype'),
+    url(/fonts/MyriadPro-Bold.otf) format("embedded-opentype"),
+    url(/fonts/MyriadProBoldSemiExtended.woff) format ('woff'),
+    url(/fonts/MyriadProBoldSemiExtended.woff2) format ("woff2");
+    font-weight:normal;
+ font-style:normal;
+
 }
 body {
   font-family: "MyriadPro";
 }
 
-.container {
-  width: 100%;
-  max-width: 95rem;
-  margin: 0 auto; /* Center alignment */
-  padding: 0 1em;
+.fas.fa-times{
+  position: absolute;
+    right: 0px;
+    top: 25%;
 }
+
 section.top-bar{
   background-color: #10592e;
   text-align: center;
   height: 2rem;
+  display: block;
 }
 #h1-content{
 font-size: 4.4rem;
 }
 .top-bar p{
   color: white;
-  font-size: 0.96rem;
+  font-size: 1.2rem;
 }
 .header {
   position: relative;
-  padding: 1rem;
-font-size: medium;
+height: 8.7rem;
+font-size: 1.5rem;
+font-weight: bold;
 }
 
-.header div.col-l{
-  padding-left: 5rem;
+.header div.col-auto{
+  
 }
 a.nav-link {
-  margin-left: 2rem;
+  
 }
 .navbar-nav.mr-auto li#li1{
-  margin-left: 1rem;
- margin-bottom: 0rem;
+
  position: absolute;
  right: 10%;
  top:18%
@@ -74,10 +81,10 @@ left: 0px;
 
 
 #btn-header {
- border-radius: 1.8rem;
-font-size: 1.12rem;
+ border-radius: 2.2rem;
+font-size: 1.3rem;
 width: 11.2rem;
-height: 3.6rem;
+height: 4rem;
 background-color: #ff2600;
 }
 
@@ -238,6 +245,9 @@ h1.pro{
   font-weight: bold;
   font-size: 4rem;
 }
+#col-pro{
+  padding-top: 10rem;
+}
 p.pro{
   color: #6e6e6e;
   font-size: 1.4rem;
@@ -356,14 +366,11 @@ div.card.card-body {
   padding
 } */
 
-p.email{
-  font-size: 1.6rem;
-  color: #10592e;
-  margin-bottom: 0em;
-}
+
 
 h1.email{
   font-size: 2.6rem;
+  font-weight: bold;
 }
 
 .email i.fa.fa-arrow-circle-right {
@@ -413,14 +420,14 @@ color: green;
   border-width: 0em;
   font-size: 2rem;
  
-  right: 0%;
+  right: 3%;
   padding: 0px;
   z-index: 2;
   width: 4.4rem;
   height: 4.4rem;
 }
 #i3{
-  color: greenyellow;
+  color: #8dc642;
   font-size: 4.5rem;
   border-radius: 5rem;
 }
@@ -432,9 +439,14 @@ color: green;
 #p-email{
   font-size: 0.8rem;
   text-align: center;
-
   color: #acacac;
-  padding-left: 3.4rem;
+  padding: 1rem 3rem;
+}
+#p1-email{
+  font-size: 1.6rem;
+  color: #10592E;
+  font-weight: bolder;
+  padding: 0;
 }
 
 .footer{
@@ -457,7 +469,7 @@ color: green;
   color: #3c3f38;
   padding-top: 5px;
   font-size: 1.2rem;
-  font-family: Arial, Helvetica, sans-serif;
+  
 }
 .footer-logo img {
   margin-left: 44%;
@@ -468,9 +480,9 @@ color: green;
 p#foo{
   text-align: center;
 
-  font: 1rem sans-serif;
+  font: 1rem ;
   padding-top: 1rem;
-  padding-bottom: 2rem;
+  
 }
 
 
@@ -487,7 +499,7 @@ p#foo{
 ul.dropdown-menu.show, ul.dropdown-menu {
   font-size: small;
   width: 18rem;
-  padding-left: 1rem;
+ 
   color: #272626;
 }
 ul.dropdown-menu.show a, ul.dropdown-menu a{
@@ -523,14 +535,28 @@ color: #272626;
 .dropdown-submenu:hover #d2, .dropdown-submenu:hover #d2-2 {display: block;}
 
 /* font size  */
-.header {
-  font-size: 1.3rem;
-  font-weight: bold;
-}
+
 .dropdown-menu a{
- font-size: 1rem;
+ font-size: 1.2rem;
  font-weight: 10;
- 
+ text-align: left;
+ text-indent: 1rem;
+ padding: 0.5rem;
+}
+#col-lab h2{
+  font-size: 4rem;
+}
+
+#p-lab{
+  font-size: 1.4rem;
+}
+
+#h1-pro{
+  font-size: 4rem;
+}
+
+#p-pro{
+  font-size: 1.4rem;
 }
 
 .slick-slide.slick-current.slick-active.slick-center{
@@ -581,7 +607,8 @@ p#p-content{
 }
 
 .active, .accordion:hover {
-  background-color: #ebf4e4;
+ 
+  background-image: linear-gradient(to right,#ebf4e4, #dce6e0);
   border-radius: 3rem;
 }
 
@@ -603,11 +630,22 @@ p#p-content{
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  font-size: 1.4rem;
+  
   max-width: 78rem;
   color: #b1b1b1;
+
+  padding: left 1rem; ;
+  font-size: 1.4rem;
+  
+  color: #6E6E6E;
 }
 
 /* end */
 
+.top-bar a{
+  color: white
+}
 
+.top-bar a:active ::after {
+  display: none;
+}
