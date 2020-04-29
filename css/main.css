@@ -267,14 +267,16 @@ button.btn-pro{
   border-width: 2px; width: 13.7rem; height: 4rem;
   
 }
+
+.img-pro{
+  object-fit: cover;
+}
+
 .parent img{
-  width: 1500px;
-  height: 150px;
+  width: auto;
+  height: 21.4rem;
   background-color: #3e3e3e;
-  background-image: none;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+ object-fit: cover;
 }
 .parent{
   background-image: url(/images/Store-a-Tooth\(Final\)_0a.png);
@@ -288,8 +290,7 @@ button.btn-par{
   border-radius: 20px;
   font-size: 13px;
   font-weight: bold;
-  position: relative;
-  left: 45%;
+
 }
 #btn-par{
   padding-top: 3rem;
@@ -300,8 +301,7 @@ button.btn-par{
   border-width: 2px;
    width: 137px;
     height: 40.5px;
-    position: absolute;
-    left: 43%;
+ 
     
 }
 #h-parent{
@@ -462,7 +462,7 @@ color: green;
 }
 
 .footer ul{
-  padding: 1rem 0 1rem 5rem;
+  padding: 1rem;
 }
 
 .footer li a{
@@ -562,12 +562,16 @@ color: #272626;
 .slick-slide.slick-current.slick-active.slick-center{
   width: 10rem;
 }
-.seen .container-fluid {
-  padding-left:  30rem;
-  padding-right: 30rem;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+.seen #seen-col {
+  padding: 3.5rem 25rem;
 }
+
+/* .seen img{
+  width: 16rem!important;
+  height: 7rem;
+  display: block;
+  padding-left: 4rem!important ;
+} */
 
 .lab-img {
   padding-top: 1rem;

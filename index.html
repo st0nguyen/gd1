@@ -242,17 +242,21 @@
   </section>
   <section class="seen">
     <h4><span>As Seen One</span></h4>
-    <div class="container-fluid">
+    <div >
 
-      <div class="row">
-        <div class="col-md" id="seen-col">
+      <div >
+        <div  id="seen-col">
           <div class="sli" data-slick='{"slidesToShow": 5, "slidesToScroll": 2}'>
             <div> <img src="images/Layer-37.png" alt="" /></div>
             <div> <img src="images/Layer-38.png" alt="" /></div>
             <div><img src="images/Layer-39.png" alt="" /></div>
             <div><img src="images/Layer-40.png" alt="" /></div>
             <div><img src="images/Layer-41.png" alt="" /></div>
-            <div> <img src="images/Layer-40.png" alt="" /></div>
+            <div> <img src="images/Layer-37.png" alt="" /></div>
+            <div> <img src="images/Layer-38.png" alt="" /></div>
+            <div><img src="images/Layer-39.png" alt="" /></div>
+            <div><img src="images/Layer-40.png" alt="" /></div>
+            <div><img src="images/Layer-41.png" alt="" /></div>
 
 
           </div>
@@ -326,11 +330,11 @@
           <p id="p-pro">
             We store the stem cells in a secure facility. At -240° F!
           </p>
-          <div id="btn-pro">
+          
             <button href="#" class="btn-pro">
               LEARN MORE
-            </button>
-          </div>
+            </button
+          
         </div>
       </div>
     </div>
@@ -381,10 +385,12 @@
           </div>
         </div>
       </div>
-      <div class="row" id="btn-par">
-        <button href="#" class="btn-par">
-          LEARN MORE
-        </button>
+      <div class="row " id="btn-par">
+        <div class="col text-center">
+          <button href="#" class="btn-par">
+            LEARN MORE
+          </button>
+        </div> 
       </div>
     </div>
   </section>
@@ -580,11 +586,11 @@
     $(document).ready(function () {
       $('.sli').slick({
         centerMode: true,
-        centerPadding: '60px',
+        centerPadding: '5rem',
         slidesToShow: 3,
         responsive: [
           {
-            breakpoint: 768,
+            breakpoint: 1070,
             settings: {
               arrows: false,
               centerMode: true,
@@ -593,12 +599,12 @@
             }
           },
           {
-            breakpoint: 480,
+            breakpoint: 680,
             settings: {
               arrows: false,
               centerMode: true,
-              centerPadding: '40px',
-              slidesToShow: 1
+              centerPadding: '10px',
+              slidesToShow: 2
             }
           }
         ]

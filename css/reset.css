@@ -3,49 +3,83 @@
       width: 500px;
       height: auto;
     }
-  
-    /* .content-desc1{
-      font-size: 1rem;
-    }
-    .btn btn-danger{
-      width: 0rem;
-    } */
   }
   @media only screen and (max-width: 1000px) {
     #row-content{
       width: 300px;
       top: 10%;
-     
     }
+    .seen #seen-col {
+      padding: 3.5rem 15rem;
+    }
+    
   }
+
   
-  /* @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 650px) {
+    #btn-header{
+    width: 100%; 
+    height: auto;
+    font-size: 1.1rem;
+    }
     #row-content{
       width: 200px;
       top: 20%;
       }
       #h1-content{
-        font-size: 2.5rem;
+        font-size: 3rem;
       }
       #btn1 {
-          width: 15rem;
+          
+          font-size: 1.2rem;
+    width: 105%;
       }
      #p-lab{
          font-size: 1rem;
      }
-     button.btn-par{
+     /* button.btn-par{
         border-width: 2px;
          width: 137px;
           height: 40.5px;
           position: absolute;
           left: 38%;
-      }
+      } */
       .footer-logo img {
-        margin-left: 40%;
-    
+        margin-left: 35%;
     }
-  
 
+    h1.email{
+      font-size: 100%;
+    }
+
+    .header .dropdown a{
+      font-size: 85%;
+    }
+
+    #t3 {
+      height: 19%;
+    }
+
+    #b3 {
+      height: 19%;
+      width: 16%;
+    }
+
+    #i3{
+     font-size: 2.5rem;
+    }
+
+   .footer .row {
+     padding: 0px!important;
+
+   }
+
+    } 
+
+    /* @media only screen and (max-width: 768) {
+      button.btn-par{
+        left: 38%;
+      }
     } */
 
     @media only screen and (max-width: 430) {
@@ -55,5 +89,9 @@
     .footer-logo img {
         margin-left: 30%;
     
+    }
+
+    .seen #seen-col {
+      padding: 3.5rem 15rem;
     }
 }
